@@ -77,38 +77,38 @@ LAYERZERO_CHAINS_ID = {
     'zora'      : 195,
     'scroll'    : 214,
 }
-
-WOOFI_BRIDGE_CONTRACTS = {
-    'avalanche'     : '0x51AF494f1B4d3f77835951FA827D66fc4A18Dae8',
-    'polygon'       : '0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173',
-    'ethereum'      : '0x9D1A92e601db0901e69bd810029F2C14bCCA3128',
-    'bsc'           : '0x81004C9b697857fD54E137075b51506c739EF439',
-    'arbitrum'      : '0x4AB421de52b3112D02442b040dd3DC73e8Af63b5',
-    'optimism'      : '0xbeae1b06949d033da628ba3e5af267c3e740494b',
-    'fantom'        : '0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9',
-}
-
-WOOFI_SWAP_CONTRACTS = {
-    'avalanche'     : '0xC22FBb3133dF781E6C25ea6acebe2D2Bb8CeA2f9',
-    'polygon'       : '0x817Eb46D60762442Da3D931Ff51a30334CA39B74',
-    'ethereum'      : '',
-    'bsc'           : '0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06',
-    'arbitrum'      : '0x9aed3a8896a85fe9a8cac52c9b402d092b629a30',
-    'optimism'      : '0xEAf1Ac8E89EA0aE13E0f03634A4FF23502527024',
-    'fantom'        : '0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb',
-    'zksync'        : '0xfd505702b37Ae9b626952Eb2DD736d9045876417',
-}
-
-# what to bridge to woofi (usdc / usdt)
-WOOFI_PATH = {
-    'avalanche'     : '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
-    'polygon'       : '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
-    'ethereum'      : '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-    'bsc'           : '0x55d398326f99059ff775485246999027b3197955',
-    'arbitrum'      : '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
-    'optimism'      : '0x7f5c764cbc14f9669b88837ca1490cca17c31607',
-    'fantom'        : '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
-}
+#
+# WOOFI_BRIDGE_CONTRACTS = {
+#     'avalanche'     : '0x51AF494f1B4d3f77835951FA827D66fc4A18Dae8',
+#     'polygon'       : '0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173',
+#     'ethereum'      : '0x9D1A92e601db0901e69bd810029F2C14bCCA3128',
+#     'bsc'           : '0x81004C9b697857fD54E137075b51506c739EF439',
+#     'arbitrum'      : '0x4AB421de52b3112D02442b040dd3DC73e8Af63b5',
+#     'optimism'      : '0xbeae1b06949d033da628ba3e5af267c3e740494b',
+#     'fantom'        : '0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9',
+# }
+#
+# WOOFI_SWAP_CONTRACTS = {
+#     'avalanche'     : '0xC22FBb3133dF781E6C25ea6acebe2D2Bb8CeA2f9',
+#     'polygon'       : '0x817Eb46D60762442Da3D931Ff51a30334CA39B74',
+#     'ethereum'      : '',
+#     'bsc'           : '0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06',
+#     'arbitrum'      : '0x9aed3a8896a85fe9a8cac52c9b402d092b629a30',
+#     'optimism'      : '0xEAf1Ac8E89EA0aE13E0f03634A4FF23502527024',
+#     'fantom'        : '0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb',
+#     'zksync'        : '0xfd505702b37Ae9b626952Eb2DD736d9045876417',
+# }
+#
+# # what to bridge to woofi (usdc / usdt)
+# WOOFI_PATH = {
+#     'avalanche'     : '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+#     'polygon'       : '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
+#     'ethereum'      : '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+#     'bsc'           : '0x55d398326f99059ff775485246999027b3197955',
+#     'arbitrum'      : '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+#     'optimism'      : '0x7f5c764cbc14f9669b88837ca1490cca17c31607',
+#     'fantom'        : '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
+# }
 
 WETH_CONTRACTS = {
     'ethereum'      : '',
@@ -124,55 +124,55 @@ WETH_CONTRACTS = {
     'starknet'      : '',
 }
 
-SUSHISWAP_CONTRACTS = {
-    'ethereum'      : '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F',
-    'optimism'      : '0x4C5D5234f232BD2D76B96aA33F5AE4FCF0E4BFAb',
-    'bsc'           : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-    'arbitrum'      : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-    'nova'          : '0x1b02da8cb0d097eb8d57a175b88c7d8b47997506',
-    'polygon'       : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-    'polygon_zkevm' : '',
-    'fantom'        : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-    'zksync'        : '',
-    'zksync_lite'   : '',
-}
-
-BUNGEE_REFUEL_CONTRACTS = {
-    'ethereum'      : '0xb584D4bE1A5470CA1a8778E9B86c81e165204599',
-    'optimism'      : '0x5800249621da520adfdca16da20d8a5fc0f814d8',
-    'bsc'           : '0xbe51d38547992293c89cc589105784ab60b004a9',
-    'arbitrum'      : '0xc0e02aa55d10e38855e13b64a8e1387a04681a00',
-    'polygon'       : '0xAC313d7491910516E06FBfC2A0b5BB49bb072D91',
-    'polygon_zkevm' : '0x555a64968e4803e27669d64e349ef3d18fca0895',
-    'zksync'        : '0x7Ee459D7fDe8b4a3C22b9c8C7aa52AbadDd9fFD5',
-    'avalanche'     : '0x040993fbf458b95871cd2d73ee2e09f4af6d56bb',
-    'gnosis'        : '0xBE51D38547992293c89CC589105784ab60b004A9',
-    'fantom'        : '0x040993fbF458b95871Cd2D73Ee2E09F4AF6d56bB',
-    'base'          : '0xe8c5b8488feafb5df316be73ede3bdc26571a773'
-}
-
-ZERIUS_REFUEL_CONTRACTS = {
-    'optimism'      : '0x2076BDd52Af431ba0E5411b3dd9B5eeDa31BB9Eb',
-    'bsc'           : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
-    'arbitrum'      : '0x412aea168aDd34361aFEf6a2e3FC01928Fba1248',
-    'polygon'       : '0x2ef766b59e4603250265EcC468cF38a6a00b84b3',
-    'polygon_zkevm' : '0xBAf5C493a4c364cBD2CA83C355E75F0ff7042945',
-    # 'zksync'        : '' # temp unavailable,
-    'avalanche'     : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
-    'gnosis'        : '0x1fe2c567169d39CCc5299727FfAC96362b2Ab90E',
-    'fantom'        : '0xBFd3539e4e0b1B29e8b08d17f30F1291C837a18E',
-    'nova'          : '0x3Fc5913D35105f338cEfcB3a7a0768c48E2Ade8E',
-    'harmony'       : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD', # unavailable : need to convert it to a one-address
-    'core'          : '0xB47D82aA70f839dC27a34573f135eD6dE6CED9A5',
-    'celo'          : '0xFF21d5a3a8e3E8BA2576e967888Deea583ff02f8',
-    'moonbeam'      : '0xb0bea3bB2d6EDDD2014952ABd744660bAeF9747d',
-    'base'          : '0x9415AD63EdF2e0de7D8B9D8FeE4b939dd1e52F2C',
-    'scroll'        : '0xB074f8D92b930D3415DA6bA80F6D38f69ee4B9cf',
-    'zora'          : '0x1fe2c567169d39CCc5299727FfAC96362b2Ab90E',
-    'linea'         : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
-    'metis'         : '0x1b07F1f4F860e72c9367e718a30e38130114AD22',
-    'mantle'        : '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7'
-}
+# SUSHISWAP_CONTRACTS = {
+#     'ethereum'      : '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F',
+#     'optimism'      : '0x4C5D5234f232BD2D76B96aA33F5AE4FCF0E4BFAb',
+#     'bsc'           : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+#     'arbitrum'      : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+#     'nova'          : '0x1b02da8cb0d097eb8d57a175b88c7d8b47997506',
+#     'polygon'       : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+#     'polygon_zkevm' : '',
+#     'fantom'        : '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+#     'zksync'        : '',
+#     'zksync_lite'   : '',
+# }
+#
+# BUNGEE_REFUEL_CONTRACTS = {
+#     'ethereum'      : '0xb584D4bE1A5470CA1a8778E9B86c81e165204599',
+#     'optimism'      : '0x5800249621da520adfdca16da20d8a5fc0f814d8',
+#     'bsc'           : '0xbe51d38547992293c89cc589105784ab60b004a9',
+#     'arbitrum'      : '0xc0e02aa55d10e38855e13b64a8e1387a04681a00',
+#     'polygon'       : '0xAC313d7491910516E06FBfC2A0b5BB49bb072D91',
+#     'polygon_zkevm' : '0x555a64968e4803e27669d64e349ef3d18fca0895',
+#     'zksync'        : '0x7Ee459D7fDe8b4a3C22b9c8C7aa52AbadDd9fFD5',
+#     'avalanche'     : '0x040993fbf458b95871cd2d73ee2e09f4af6d56bb',
+#     'gnosis'        : '0xBE51D38547992293c89CC589105784ab60b004A9',
+#     'fantom'        : '0x040993fbF458b95871Cd2D73Ee2E09F4AF6d56bB',
+#     'base'          : '0xe8c5b8488feafb5df316be73ede3bdc26571a773'
+# }
+#
+# ZERIUS_REFUEL_CONTRACTS = {
+#     'optimism'      : '0x2076BDd52Af431ba0E5411b3dd9B5eeDa31BB9Eb',
+#     'bsc'           : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
+#     'arbitrum'      : '0x412aea168aDd34361aFEf6a2e3FC01928Fba1248',
+#     'polygon'       : '0x2ef766b59e4603250265EcC468cF38a6a00b84b3',
+#     'polygon_zkevm' : '0xBAf5C493a4c364cBD2CA83C355E75F0ff7042945',
+#     # 'zksync'        : '' # temp unavailable,
+#     'avalanche'     : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
+#     'gnosis'        : '0x1fe2c567169d39CCc5299727FfAC96362b2Ab90E',
+#     'fantom'        : '0xBFd3539e4e0b1B29e8b08d17f30F1291C837a18E',
+#     'nova'          : '0x3Fc5913D35105f338cEfcB3a7a0768c48E2Ade8E',
+#     'harmony'       : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD', # unavailable : need to convert it to a one-address
+#     'core'          : '0xB47D82aA70f839dC27a34573f135eD6dE6CED9A5',
+#     'celo'          : '0xFF21d5a3a8e3E8BA2576e967888Deea583ff02f8',
+#     'moonbeam'      : '0xb0bea3bB2d6EDDD2014952ABd744660bAeF9747d',
+#     'base'          : '0x9415AD63EdF2e0de7D8B9D8FeE4b939dd1e52F2C',
+#     'scroll'        : '0xB074f8D92b930D3415DA6bA80F6D38f69ee4B9cf',
+#     'zora'          : '0x1fe2c567169d39CCc5299727FfAC96362b2Ab90E',
+#     'linea'         : '0x5B209E7c81DEaad0ffb8b76b696dBb4633A318CD',
+#     'metis'         : '0x1b07F1f4F860e72c9367e718a30e38130114AD22',
+#     'mantle'        : '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7'
+# }
 
 MULTICALL_ETH_CONTRACTS = {
     'ethereum': '0xb1f8e55c7f64d203c1400b9d8555d050f94adf39',
@@ -417,122 +417,122 @@ LZ_CHAIN_TO_TOKEN = {
     175: 'ETH', # nova
     183: 'ETH', # linea
 }
-ZERIUS_CONTRACTS = {
-    'ethereum': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41', 
-    'optimism': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41', 
-    'bsc': '0x250c34D06857b9C0A036d44F86d2c1Abe514B3Da', 
-    'polygon': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41', 
-    'arbitrum': '0x250c34D06857b9C0A036d44F86d2c1Abe514B3Da', 
-    'avalanche': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41', 
-    'base': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
-    'zora': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
-    'scroll': '0xEB22C3e221080eAD305CAE5f37F0753970d973Cd',
-    'zksync': '0x7dA50bD0fb3C2E868069d9271A2aeb7eD943c2D6',
-    'linea': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'nova': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'metis': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'moonbeam': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
-    'polygon_zkevm': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
-    'core': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'celo': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
-    'harmony': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'canto': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'fantom': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-    'gnosis': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
-}
+# ZERIUS_CONTRACTS = {
+#     'ethereum': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'optimism': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'bsc': '0x250c34D06857b9C0A036d44F86d2c1Abe514B3Da',
+#     'polygon': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'arbitrum': '0x250c34D06857b9C0A036d44F86d2c1Abe514B3Da',
+#     'avalanche': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'base': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'zora': '0x178608fFe2Cca5d36f3Fc6e69426c4D3A5A74A41',
+#     'scroll': '0xEB22C3e221080eAD305CAE5f37F0753970d973Cd',
+#     'zksync': '0x7dA50bD0fb3C2E868069d9271A2aeb7eD943c2D6',
+#     'linea': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'nova': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'metis': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'moonbeam': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
+#     'polygon_zkevm': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
+#     'core': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'celo': '0x4c5AeDA35d8F0F7b67d6EB547eAB1df75aA23Eaf',
+#     'harmony': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'canto': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'fantom': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+#     'gnosis': '0x5188368a92B49F30f4Cf9bEF64635bCf8459c7A7',
+# }
 
 ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
-arbitrum_bridge_contracts = {
-    "arbitrum": "0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f",
-    "nova": "0xc4448b71118c9071Bcb9734A0EAc55D18A153949"
-}
-
-ROCKETSAM_CONTRACTS = {
-    "ethereum"      : [],
-    "zora"          : [
-        "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
-        "0x1077df51A4059477826549101a30a70b9579A08B",
-        "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
-        "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
-        "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
-        "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
-    ],
-    "polygon_zkevm" : [],
-    "arbitrum"      : [
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x0557D4C04BB994719b087d2950841BF25cf39899",
-        "0x70f445C078D699E173d66c3b55098fe6D9Dbd6F4",
-        "0x366FB130510Ea17853E06A9791EA3326Bdbb4a13",
-        "0xF330c18BdBA381366016A5C4d65D4B340E77c108",
-        "0x5aD05713f9e2dF30834913d3f94f0fDc27e49031",
-        "0x363df9b72EC83c7d4Fd60A61eF4629BFdc8A7Dbf",
-        "0xAb8848bB1883B2b5DfEb170D8362667e937cdd36",
-    ],
-    "scroll"        : [
-        "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
-        "0x1077df51A4059477826549101a30a70b9579A08B",
-        "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
-        "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
-        "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
-        "0x0557D4C04BB994719b087d2950841BF25cf39899",
-    ],
-    "nova"          : [
-        "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
-        "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
-        "0x1077df51A4059477826549101a30a70b9579A08B",
-        "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
-        "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
-        "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
-    ],
-    "zksync"        : [
-        "0xbc6C8BbBD06b6785cF898C3a69DbAE56527dEF10",
-        "0x267e930bb2cb5d3d62564c20b947ad8839c8f7b6",
-        "0x5b35d48acdc790ebb94523a100a20e97c937de29",
-        "0xb959a457c54b03d8bf1d126c3baca8ee2cd967f2",
-        "0x65b82bd5a83ff082f723ebf4187b7739ad13e230",
-        "0xe771b992d2af7d0d99bc93c83cc9c254787e47a8",
-        "0x0b6662b53560ca1b4b22e15bd3cf692e864a733c",
-        "0xe6bcb3c91982f5f63e4b19b8130a10767762e2a9",
-        "0x07068c8e44a4f4816b3921178ccec6cd4d9a4e14",
-        "0x59f6cef0843f3506b214055ad6fd3c385f83d1ad",
-    ],
-    "linea"         : [
-        "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
-        "0x1077df51A4059477826549101a30a70b9579A08B",
-        "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
-        "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
-        "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
-        "0x0557D4C04BB994719b087d2950841BF25cf39899",
-    ],
-    "base"          : [
-        "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
-        "0x1077df51A4059477826549101a30a70b9579A08B",
-        "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
-        "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
-        "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
-        "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
-        "0x553a8EFa12d333c864c89CB809D68268C836B70a",
-        "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
-        "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
-        "0x0557D4C04BB994719b087d2950841BF25cf39899"
-    ],
-}
+# arbitrum_bridge_contracts = {
+#     "arbitrum": "0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f",
+#     "nova": "0xc4448b71118c9071Bcb9734A0EAc55D18A153949"
+# }
+#
+# ROCKETSAM_CONTRACTS = {
+#     "ethereum"      : [],
+#     "zora"          : [
+#         "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
+#         "0x1077df51A4059477826549101a30a70b9579A08B",
+#         "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
+#         "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
+#         "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
+#         "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
+#     ],
+#     "polygon_zkevm" : [],
+#     "arbitrum"      : [
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x0557D4C04BB994719b087d2950841BF25cf39899",
+#         "0x70f445C078D699E173d66c3b55098fe6D9Dbd6F4",
+#         "0x366FB130510Ea17853E06A9791EA3326Bdbb4a13",
+#         "0xF330c18BdBA381366016A5C4d65D4B340E77c108",
+#         "0x5aD05713f9e2dF30834913d3f94f0fDc27e49031",
+#         "0x363df9b72EC83c7d4Fd60A61eF4629BFdc8A7Dbf",
+#         "0xAb8848bB1883B2b5DfEb170D8362667e937cdd36",
+#     ],
+#     "scroll"        : [
+#         "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
+#         "0x1077df51A4059477826549101a30a70b9579A08B",
+#         "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
+#         "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
+#         "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
+#         "0x0557D4C04BB994719b087d2950841BF25cf39899",
+#     ],
+#     "nova"          : [
+#         "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
+#         "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
+#         "0x1077df51A4059477826549101a30a70b9579A08B",
+#         "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
+#         "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
+#         "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
+#     ],
+#     "zksync"        : [
+#         "0xbc6C8BbBD06b6785cF898C3a69DbAE56527dEF10",
+#         "0x267e930bb2cb5d3d62564c20b947ad8839c8f7b6",
+#         "0x5b35d48acdc790ebb94523a100a20e97c937de29",
+#         "0xb959a457c54b03d8bf1d126c3baca8ee2cd967f2",
+#         "0x65b82bd5a83ff082f723ebf4187b7739ad13e230",
+#         "0xe771b992d2af7d0d99bc93c83cc9c254787e47a8",
+#         "0x0b6662b53560ca1b4b22e15bd3cf692e864a733c",
+#         "0xe6bcb3c91982f5f63e4b19b8130a10767762e2a9",
+#         "0x07068c8e44a4f4816b3921178ccec6cd4d9a4e14",
+#         "0x59f6cef0843f3506b214055ad6fd3c385f83d1ad",
+#     ],
+#     "linea"         : [
+#         "0x80C7E6B91a33b2D956F01092B1E60EEc6e957dc9",
+#         "0x1077df51A4059477826549101a30a70b9579A08B",
+#         "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
+#         "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
+#         "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
+#         "0x0557D4C04BB994719b087d2950841BF25cf39899",
+#     ],
+#     "base"          : [
+#         "0x634607B44e21F4b71e7bD5e19d5b8E4dC99Ab9C4",
+#         "0x1077df51A4059477826549101a30a70b9579A08B",
+#         "0x802DbB9efE447f8e4f578EB7add3F7e43E89C529",
+#         "0x0c9Bfb785E6582A15d6523252675abaA7350Bf76",
+#         "0x288df8088905D71Ff052bf052f3A0ff11A6CDa46",
+#         "0x2B4a7822F3de8bd6cb0552f562b40a391890E945",
+#         "0x553a8EFa12d333c864c89CB809D68268C836B70a",
+#         "0x5ae3cB086887A6FB7662eE58Cf1d5113E69bBA62",
+#         "0x1feF777Fb93Aa45a6Cefcf5507c665b64b301FB3",
+#         "0x0557D4C04BB994719b087d2950841BF25cf39899"
+#     ],
+# }
